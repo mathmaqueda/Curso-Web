@@ -1,0 +1,279 @@
+/* 
+
+   container 750px
+   
+   top height 150px
+   padding 25px
+
+
+    logo width 152px height 66px
+
+    topo
+    background #b10333
+    font0size 0.9em
+    padding 0.5em 1.5em
+    line height 2.1em
+
+    hover color#69001d
+
+    background selecionado background#de003e
+
+    background conteudo #f5f5f5
+
+    background rodape #294c71
+
+    duas colunas width 555px
+
+    submit border #870529
+
+    cor lista noticias color #3e7ab9
+
+    a:hover color #eee
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #fff url(../img/fundo.png) repeat-x top center;
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    padding: 5px;
+    background-color: #294c71;
+    font-size: 1em;
+    color: #fff;
+}
+
+/* HEADER */
+
+header {
+    width: 750px;
+    height: 150px;
+    margin: 0 auto;
+    background: url(../img/detalhe-topo.png) no-repeat top right;
+    padding: 25px;
+}
+
+header #logo {
+    width: 152px;
+    height: 66px;
+}
+
+#menu ul {
+    margin-top: 30px;
+}
+
+#menu li a {
+    float: left;
+    text-decoration: none;
+    background: #b10333 url(../img/divisor.png) no-repeat center left;
+    padding: 0.5em 1.5em;
+    font-size: 0.9em;
+    line-height: 2.1em;
+    color: #fff;
+}
+
+#menu li a:hover {
+    color: #69001d;
+    
+}
+
+#menu .primeiro {
+    background: #b10333;
+}
+
+body.home #menu a#home, body.brasil #menu a#brasil, body.fotos #menu a#fotos {
+    background: #de003e;
+}
+
+/* CONTEÚDO */
+
+main {
+    width: 750px;
+    margin: 50px auto 0 auto;
+}
+
+/* TRÊS COLUNAS */
+
+body#tres-colunas main #lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+body#tres-colunas main #primeiro {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+body#tres-colunas main #segundo {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+/* DUAS COLUNAS */
+
+body#duas-colunas main #lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+body#duas-colunas main #primeiro {
+    width: 555px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+/* UMA COLUNA */
+
+body#uma-coluna main #primeiro {
+    width: 750px;
+    float: left;
+}
+
+main .caixa {
+    background: url(../img/fundo-caixa.png);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.conteudo {
+    background-color: #fff;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+/* LATERAL */
+
+#lateral ul a {
+    padding: 3px;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #000;
+    display: block;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+    background: #f3f3f3 url(../img/marcador.png) no-repeat center left;
+    text-indent: 15px;
+    color: #a1a1a1;
+}
+
+#lateral form {
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+#lateral #email {
+    width: 95%;
+    padding: 3px;
+    border: 2px solid #696969;
+}
+
+#lateral #submit {
+    width: 50%;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    color: #fff;
+    padding: 3px;
+}
+
+/* SEÇÕES PRINCIPAIS */
+
+.foto-caixa {
+    border: 2px solid #696969;
+}
+
+body#tres-colunas .foto-caixa {
+    width: 245px;
+}
+
+body#duas-colunas .foto-caixa {
+    width: 530px;
+}
+
+body#uma-coluna .foto-caixa {
+    width: 725px;
+}
+
+.subtitulo {
+    background: #b10333;
+    color: #fff;
+    font-size: 0.9em;
+    line-height: 24px;
+    padding: 0 5px;
+    display: inline-block;
+}
+
+.previa-caixa {
+    font-size: 0.8em;
+}
+
+.texto-caixa {
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+.link-caixa {
+    text-decoration: underline;
+    color: #b10333;
+    font-size: 0.9em;
+}
+
+/* Listas Conteúdo */
+
+.lista-caixa img {
+    float: left;
+    width: 90px;
+    margin: 0 5px;
+}
+
+.lista-caixa li {
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+    width: 100%;
+}
+
+.lista-caixa li a {
+    text-decoration: none;
+}
+
+.lista-caixa li:hover {
+    background: #f3f3f3;
+    cursor: pointer;
+}
+
+.lista-caixa h3 {
+    color: #3e7ab9;
+    font-size: 0.8em;
+}
+
+.lista-caixa p {
+    font-size: 0.7em;
+    color: #000;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #294c71;
+    line-height: 4em;
+    color: #fff;
+    font-size: 0.9em;
+    text-align: center;
+    clear: both;
+}

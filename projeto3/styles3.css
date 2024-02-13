@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font: 16px sans-serif;
+    background-image: url(img/fundo2.png);
+}
+
+#principal {
+    margin: 20px auto;
+    width: 900px;
+}
+
+#logo {
+    display: inline-block;
+    width: 50%;
+}
+
+#menu {
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: #4682B4;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#conteudo h1{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+#conteudo {
+    padding: 15px 15px 0 15px;
+    margin-top: 25px;
+}
+
+#conteudo hr {
+    margin: 15px 0;
+}
+
+#footer {
+    text-align: center;
+}
+
+#contato {
+    font-weight: lighter;
+}
+
+.caixas {
+    width: 235px;
+    height: 20px;
+}
+
+input, textarea {
+    border: solid 1.5px #1a3a56;
+    border-radius: 3px;
+}
+
+#submit {
+    background-color: #4682B4;
+    color: #ffffff;
+    font-weight: bold;
+    width: 75px;
+    height: 20px;
+}
+
+#enviar {
+    width: 240px;
+    text-align: center;
+}

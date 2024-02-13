@@ -1,0 +1,170 @@
+/* 
+    body
+        background: #e6e6e6;
+        font-family: "Trebuchet MS", "helvetica", sans-serif;
+    cabecalho
+        background-color: #f7b600;
+    h1
+        color: #4e4e4e;
+        font-size: 2.5em;
+    h2
+        color: #f7b600;
+    h3
+        background: #565656
+        color: #CCC
+    .branco
+        color: white;
+    #area-principal {
+        width: 920px;
+    }
+
+    .data-postagem
+        font-size: 0.8em;
+        border-bottom: #f4f4f4;
+
+*/
+
+/* 
+****LIMPAR FORMATAÇÃO PADRÃO****
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/* 
+****FORMATAÇÕES GERAIS****
+*/
+
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #f7b600;
+}
+
+h3 {
+    color: #565656;
+    background-color: #CCC;
+    padding: 5px;
+}
+
+.branco {
+    color: #FFF;
+}
+
+hr {
+    margin: 10px 0;
+    border: 1px solid #CCC;
+}
+
+/* 
+****LAYOUT**** 
+*/
+
+/* header */
+
+header {
+    background-color: #f7b600;
+    text-align: center;
+    padding: 15px;
+}
+
+#logo, #menu {
+    padding: 10px;
+}
+
+#menu a:link, #menu a:visited {
+    color: #FFF;
+    padding: 8px 12px;
+}
+
+#menu a:hover {
+    color: #f7b600;
+    background: #FFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+main a:link, main a:visited {
+    font-size: 0.9em;
+    color: #f7b600;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+/* main */
+
+main {
+    width: 920px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#postagens {
+    width: 660px;
+    float: left;
+}
+
+.postagem {
+    padding: 20px;
+    background-color: #FFF;
+    margin-bottom: 15px;
+}
+
+.data-postagem {
+    display: block;
+    color: #4e4e4e;
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #CCC;
+}
+
+.postagem p {
+    font-size: 0.9em;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+#postagens-laterais {
+    width: 240px;
+    float: right;
+}
+
+.lateral {
+    background-color: #FFF;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.lateral p {
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+#categorias a {
+    font-size: 1em;
+}
+
+/* footer */
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #CCC;
+}
